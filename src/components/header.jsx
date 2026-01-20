@@ -13,7 +13,7 @@ const Header = () => {
     <div className='container flex items-center justify-between border-border-b-95 pb-5 '>
     {/* logo */}
     
-    <a className='flex items-center' href="#"><img src="/public/images/coding.png" width={50} height={50} alt="" /><span className='text-4xl font-bold'><span className='text-green-400'>E-</span>learning</span></a>
+    <a className='flex items-center' href="#"><img src="/public/images/coding.png" width={50} height={50} alt="" /><span className='text-4xl font-bold'><span className='text-green-400'>E-</span>Learning</span></a>
     
     {/* Mobile menu */}
     <nav className={`navbar ${isOpen ?"active":""} `}>
